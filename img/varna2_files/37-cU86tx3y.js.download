@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["ZorOi"]); }
+
+__d('legacy:netego',['NetEgo'],(function a(b,c,d,e,f,g){b.NetEgo=c('NetEgo');}),3);
+__d('legacy:PhotoSnowliftAds',['PhotoSnowliftAds'],(function a(b,c,d,e,f,g){b.PhotoSnowliftAds=c('PhotoSnowliftAds');}),3);
