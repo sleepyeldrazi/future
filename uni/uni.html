@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
-    <title>Define your Future</title>
+    <title>MIT</title>
     <style>
     .btn{
     background-color: white;
@@ -17,9 +17,30 @@
     padding: 15px 10px 15px 5px;
     }
     .bgPic{
-      background-size: cover;
-      height: 200px;
-      width: 100%;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    }
+    #subList>li{
+    font-size: 300%;
+    margin-top: 15px;
+    }
+    #bodyBottom{
+      padding-bottom: 0;
+       margin-bottom: 0;
+    }
+    .blog-footer {
+    padding: 40px 0;
+    color: #999;
+    margin-top: 0;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: 1px solid #e5e5e5;
+    }
+    .blog-footer p:last-child {
+    margin-bottom: 0;
     }
     </style>
     <!-- Bootstrap core CSS -->
@@ -36,7 +57,7 @@
   </head>
   <!-- NAVBAR
   ================================================== -->
-  <body>
+  <body style="padding-bottom: 0">
     <div class="navbar-wrapper">
       <div class="container">
         <nav class="navbar navbar-inverse navbar-static-top">
@@ -48,11 +69,14 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="../index.html">⨍ ′(uture) </a>
+              <a class="navbar-brand" style="padding: 5px 5px;" href="../index.html"> 
+              <img src="../img/future.png" style="height:35px;margin-bottom:20%"> 
+              </a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav" id="fix">
-                <li><a href="#about">Защо България?</a></li>
+              
+                <li><a href="../uni/uni.html">Защо България?</a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Университети <span class="caret"></span></a>
                   <ul class="dropdown-menu">
@@ -61,10 +85,10 @@
                     <li><a href="#">Покажи всички</a></li>
                   </ul>
                 </li>
-                <li><a href="#contact">За Нас</a></li>
+                <li><a href="../aboutus.html">За Нас</a></li>
               </ul>
               <form class="navbar-form navbar-right" role="search">
-                <div class="form-group" >
+                <div class="form-group">
                   <input type="text" class="form-control" placeholder="Търсене:">
                 </div>
                 <button type="submit" class="btn btn-default">Намери</button>
@@ -77,10 +101,55 @@
     <!-- NAVBAR
     ================================================== -->
     <div class="container">
-     
-      <img src="../img/unibg.jpg" class="bgPic">
-      
+      <div class="jumbotron" id="bodyBottom">
+        <img src="../img/unibg.jpg" class="bgPic thumbnail" id="noPad">
+        <img src="../img/logoUni.jpg" class="center-block img-thumbnail" style="margin-top: -100px;">
+        <h3 class="text-center">Massachusetts Institute of Technology</h3>
+        <h5 class="text-center">Cambridge, Massachusetts</h5>
+        <div class="row" style="margin-top: 30px;">
+          <div class="well col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <p>The Massachusetts Institute of Technology (MIT) is a private research university in Cambridge, Massachusetts. Founded in 1861 in response to the increasing industrialization of the United States, MIT adopted a European polytechnic university model and stressed laboratory instruction in applied science and engineering. Researchers worked on computers, radar, and inertial guidance during World War II and the Cold War. Post-war defense research contributed to the rapid expansion of the faculty and campus under James Killian. The current 168-acre (68.0 ha) campus opened in 1916 and extends over 1 mile (1.6 km) along the northern bank of the Charles River basin.</p>
+          </div>
+          <div class="list-group col-lg-6 col-md-6col-sm-12 col-xs-12" style="overflow: scroll; height: 500px">
+              <article class="list-group-item active">
+                <img class=" img-thumbnail"  style="width: 75px; height: 75px; float: left; margin: 0 10px 0 0">
+                <h3 class="list-group-item-heading" >Kaloyan Nikolov</h3>
+                <h5 class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquam ultrices gravida. Mauris eleifend nibh quis nunc tempor iaculis. Suspendisse vitae nunc varius sapien gravida tempor eget eu sed.</h5>
+              </article>
+              <article class="list-group-item ">
+                <img class=" img-thumbnail"  style="width: 75px; height: 75px; float: left; margin: 0 10px 0 0">
+                <h3 class="list-group-item-heading" >Kaloyan Nikolov</h3>
+                <h5 class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquam ultrices gravida. Mauris eleifend nibh quis nunc tempor iaculis. Suspendisse vitae nunc varius sapien gravida tempor eget eu sed.</h5>
+              </article><article class="list-group-item active">
+                <img class=" img-thumbnail"  style="width: 75px; height: 75px; float: left; margin: 0 10px 0 0">
+                <h3 class="list-group-item-heading" >Kaloyan Nikolov</h3>
+                <h5 class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquam ultrices gravida. Mauris eleifend nibh quis nunc tempor iaculis. Suspendisse vitae nunc varius sapien gravida tempor eget eu sed.</h5>
+              </article><article class="list-group-item ">
+                <img class=" img-thumbnail"  style="width: 75px; height: 75px; float: left; margin: 0 10px 0 0">
+                <h3 class="list-group-item-heading" >Kaloyan Nikolov</h3>
+                <h5 class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquam ultrices gravida. Mauris eleifend nibh quis nunc tempor iaculis. Suspendisse vitae nunc varius sapien gravida tempor eget eu sed.</h5>
+              </article><article class="list-group-item active">
+                <img class=" img-thumbnail"  style="width: 75px; height: 75px; float: left; margin: 0 10px 0 0">
+                <h3 class="list-group-item-heading" >Kaloyan Nikolov</h3>
+                <h5 class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquam ultrices gravida. Mauris eleifend nibh quis nunc tempor iaculis. Suspendisse vitae nunc varius sapien gravida tempor eget eu sed.</h5>
+              </article>
+              
+            </div>
+          <div class="col-lg-6 col-md-6col-sm-12 col-xs-12">
+            <ul id="subList">
+              <li><a href=""><span class="label label-info" >Computer Scinece</span></a></li>
+              <li><a href=""><span class="label label-info">Nanotechnology</span></a></li>
+              <li><a href=""><span class="label label-info">Civil Engineering</span></a></li>
+              <li><a href=""><span class="label label-info">Ethical Hacking</span></a></li>
+              <li><a href=""><span class="label label-info">Biomedical Engineering</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
+    <footer class="blog-footer">
+      <p>Build by <span class="text-danger"><a href="#">Koko Sexa</a></span> and <span class="text-success"><a href="#">Antonio Banderas</a></span></p>
+    </footer>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
