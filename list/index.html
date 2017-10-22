@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	<title>Our Little List</title>
+</head>
+<body>
+	<div style="display: inline;">
+	<form method="post">
+		<div id="left" style="float: left">
+		<label for="song">Songs:</label>
+		<input name="song" type="text" placeholder="Song"/>
+		<ul>
+		<?php
+		$s = file("songs.txt");
+		foreach($content as $line){
+		echo "<li>".$line."</li>";
+		}
+		?>
+		</ul>
+		</div>
+		<div id="right" style="float: right">
+		<label for="movie"> Movies:</label>
+		<input name="movie" type="text" placeholder="Movie" />
+		</div>
+	</form>
+	</div>
+</body>
+</html>

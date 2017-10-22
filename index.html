@@ -12,27 +12,38 @@
 
     <title>Define your Future</title>
     <style>
-      .btn{
+        .featurette-heading{
+          margin-top: 0px;
+        }
+        .btn{
         background-color: white;
         color: black;
           }
       #fix li>a{
         padding: 15px 10px 15px 5px;
       }
+      .blog-footer {
+    padding: 40px 0;
+    color: #999;
+    margin-top: 80px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: 1px solid #e5e5e5;
+    }
+    .blog-footer p:last-child {
+    margin-bottom: 0;
+    }
 
     </style>
-    <!-- Bootstrap core CSS -->
+<!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
   </head>
@@ -55,25 +66,18 @@
               </a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav" id="fix">
-              
-                <li><a href="#">Защо България?</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Университети <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li class="disabled"><a href="#">Търси по Град</a></li>
-                    <li class="disabled"><a href="#">Търси по Специалност</a></li>
-                    <li><a href="uni/unilist.html">Покажи всички</a></li>
-                  </ul>
+              <ul class="nav navbar-nav" >
+                <li>
+                  <a href="uni/unilist.html">Университети</span></a>
                 </li>
                 <li><a href="aboutus.html">За Нас</a></li>
+
               </ul>
-              <form class="navbar-form navbar-right" role="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Търсене:">
-                </div>
-                <button type="submit" class="btn btn-default">Намери</button>
-              </form>
+              <ul class=" nav navbar-nav navbar-right">
+                <li>
+                  <a href="student/register.html" >Регистрирай се</span></a>
+                </li>
+              </ul>
             </div>
           </div>
         </nav>
@@ -96,7 +100,7 @@
           <div class="container">
             <div class="carousel-caption" style="text-shadow: 0px 0px 100px #808080; opacity: 100%">
               <h1>София</h1>
-              <p><a class="btn btn-lg " href="#" role="button">Университети</a></p>
+              <p><a class="btn btn-lg " href="uni/unilist.html" role="button">Университети</a></p>
             </div>
           </div>
         </div>
@@ -105,7 +109,7 @@
           <div class="container">
             <div class="carousel-caption">
               <h1>Варна</h1>
-              <p><a class="btn btn-lg" href="#" role="button">Университети</a></p>
+              <p><a class="btn btn-lg" href="uni/unilist.html" role="button">Университети</a></p>
             </div>
           </div>
         </div>
@@ -114,7 +118,7 @@
           <div class="container">
             <div class="carousel-caption">
               <h1>Пловдив</h1>
-              <p><a class="btn btn-lg" href="#" role="button">Университети</a></p>
+              <p><a class="btn btn-lg" href="uni/unilist.html" role="button">Университети</a></p>
             </div>
           </div>
         </div>
@@ -140,33 +144,44 @@
 
       <hr class="featurette-divider">
 
-      <div class="row featurette" style="margin-left: 2%;margin-right:2%;">
-        <div class="col-md-7" style="margin-top: 0%">
-          <h2 class="featurette-heading" style="margin-top:1%;font-size:200%">В Софийския университет бе открита изложбата “Наследството на древната Кавказка Албания: традиция на мултикултурализма в Азербайджан” </h2>
-          <p style="font-size:150%" class="lead" >мултикултурализма в Азербайджан”
-В Централното фоайе на Ректората на Софийския университет “Св. Климент Охридски” бе открита изложба под наслов “Наследството на древната Кавказка Албания: традиция на мултикултурализма в Азербайджан”. Тя може да бъде разгледана до 23 декември 2016 г. По-късно през деня се проведе кръгла маса, посветена на Кавказка Албания.</p>
-          <p><a class="btn btn-lg" style="border-style: solid;border-color: black;font-size:100%" href="#" role="button">За повече информация &raquo;</a></p>
-        </div>
+      <div class="row featurette" style="margin-left: 2%;margin-right:2%;margin-top: 4%">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Студенти по архитектура ще се грижат за облика на Варна</h2>
+          <p class="lead">Във Варненския свободен университет създадоха лаборатория по архитектура. Студентите в нея ще се занимават с подобряване облика на град Варна.</p>
+
+        <p><a class="btn btn-lg" style="border-style: solid;border-color: black;font-size:100%" href="http://uspelite.bg/buglarski-studenti-stanaha-vtori-na-sustezanie-za-pravata-na-choveka" role="button">За повече информация &raquo;</a></p>
+                </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" src="img/sof_uni.jpg" style="width:400px;height: 300px" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block" src="img/studvarna.jpeg" alt="Generic placeholder image">
         </div>
       </div>
 
-
       <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Български студенти станаха втори на състезание за правата на човека. Първи са Кеймбридж</h2>
+          <p class="lead">Финалите на състезанието се проведоха в сградата на ЕСПЧ в Страсбург миналата седмица. Българският отбор пледира общо пет пъти, като на финала се изправи срещу Кеймбриджския университ и представи позицията си пред деветчленен съдийски състав.<b> С резултат 5:4 съдийски гласа, отборът на Кеймбридж спечели състезанието, а българският екип се класира на престижното второ място.</b></p>
+          <p><a class="btn btn-lg" style="border-style: solid;border-color: black;font-size:100%" href="http://uspelite.bg/studenti-po-arhitektura-shte-se-grijat-za-oblika-na-varna-1" role="button">За повече информация &raquo;</a></p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="img/studsofia.jpeg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+    
 
       <!-- /END THE FEATURETTES -->
 
 
       <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
-
-    </div><!-- /.container -->
 
 
+ <!--</div> /.container -->
+
+    <footer class="blog-footer">
+      <p>Направено от <span class="text-danger"><a href="#">Калоян Николов</a></span> и <span class="text-success"><a href="#">Антонио Георгиев</a></span></p>
+    </footer>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
